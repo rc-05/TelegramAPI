@@ -1,0 +1,15 @@
+--class-path test
+--cpp build
+--main Test
+--debug
+
+--define analyzer-optimize
+
+--define HXCPP_GC_MOVING
+--define HXCPP_GC_DYNAMIC_SIZE
+--define HXCPP_GC_BIG_BLOCKS
+--define HXCPP_CPP11
+
+--library TelegramAPI
+--library hxcpp-debug-server
+--library hxsignal

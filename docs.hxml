@@ -1,0 +1,10 @@
+--xml build/types.xml
+--define doc-gen
+--class-path src
+
+# Main package for the documentation
+telegram
+
+--library hxsignal
+
+--cmd haxelib run dox -i build/types.xml -o docs/ --keep-field-order --title "Telegram Bot API 6.1" --include-private --toplevel-package telegram

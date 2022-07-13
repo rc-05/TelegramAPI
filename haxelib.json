@@ -1,0 +1,14 @@
+{
+	"name": "TelegramApi",
+	"url" : "https://github.com/rc-05/TelegramApi",
+	"license": "Public",
+	"tags": ["API", "Telegram"],
+	"description": "Haxe implementation of the Telegram API",
+	"version": "1.0.0",
+	"classPath": "src/",
+	"releasenote": "Initial release, everything is working correctly.",
+	"contributors": ["rc-05"],
+	"dependencies": {
+		"hxsignal": "0.9.2"
+	}
+  }
