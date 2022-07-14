@@ -87,6 +87,7 @@ class Bot {
 		// Instantiate the various signal objects.
 		callbackQuerySignal = new Signal<() -> Void>();
 		channelPostSignal = new Signal<() -> Void>();
+		chatJoinRequestSignal = new Signal<() -> Void>();
 		messageSignal = new Signal<(Message) -> Void>();
 
 		// Connect each event to the corresponding signal slot.
