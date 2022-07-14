@@ -3,6 +3,8 @@
 --main Test
 --debug
 
+--dce full
+
 --define analyzer-optimize
 
 --define HXCPP_GC_MOVING
